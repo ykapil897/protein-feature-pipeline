@@ -47,7 +47,7 @@ class PDBStructureParser:
         return residues_data
 
 if __name__ == "__main__":
-    parser = PDBStructureParser("data/7rfw.pdb")
+    parser = PDBStructureParser("../data/7rfw.pdb")
     residues = parser.parse()
 
     print(f"Parsed {len(residues)} residues")
