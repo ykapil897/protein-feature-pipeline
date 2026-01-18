@@ -64,7 +64,7 @@ def run_pipeline(pdb_path: str, visualize: bool = True):
     validate_edge_consistency(protein_graph, decoded)
     print("  Validation passed ✔")
 
-    # ---------------- Phase 8: Visualization (Optional) ----------------
+    # ---------------- Phase 8: Visualization ----------------
     if visualize:
         print("[Phase 8] Visualizing protein graph...")
         visualize_protein_graph(decoded)
